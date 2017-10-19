@@ -7,6 +7,4 @@ RUN apt-get update && \
 WORKDIR /usr/src/hello
 copy . /usr/src/hello
 
-RUN make clean hello test
-
-CMD ["./hello"]
+RUN echo "hello"
