@@ -1,8 +1,6 @@
 Bootstrap:docker  
 From:ubuntu:latest  
 
-%files
-/mnt/scratch/dolsonem/containerized_avida_test $SINGULARITY_ROOTFS/containerized_avida_test
 
 %post  
 echo "This section happens once after bootstrap to build the image."  
