@@ -6,8 +6,8 @@ From:ubuntu:latest
 
 %post  
 echo "This section happens once after bootstrap to build the image."  
-sudo apt-get update
-sudo apt-get install criu
+apt-get update
+apt-get install criu
 
 mkdir -p /mnt/home
 mkdir -p /mnt/research
