@@ -4,4 +4,4 @@ RUN apt-get --assume-yes install criu
 
 ADD . /experiment
 
-ENTRYPOINT ["/experiment/configs/avida"]
+ENTRYPOINT ["configs/avida"]
