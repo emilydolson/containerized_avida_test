@@ -1,3 +1,6 @@
 FROM ubuntu:latest
+RUN apt-get install criu
 
-RUN echo "hello"
+ADD . /experiment
+
+ENTRYPOINT ["/experiment/configs/avida"]
