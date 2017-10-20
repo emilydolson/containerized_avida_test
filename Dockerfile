@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt-get update
-RUN apt-get install criu
+RUN apt-get --assume-yes install criu
 
 ADD . /experiment
 
